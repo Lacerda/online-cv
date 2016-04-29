@@ -1,0 +1,53 @@
+{
+  "name": "online-cv",
+  "version": "1.0.0",
+  "description": "online cv about me",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "start": "webpack-dev-server --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lacerda/online-cv.git"
+  },
+  "keywords": [
+    "about",
+    "me"
+  ],
+  "author": "Filipa Lacerda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lacerda/online-cv/issues"
+  },
+  "homepage": "https://github.com/Lacerda/online-cv#readme",
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-plugin-react-intl": "^2.0.0",
+    "babel-plugin-transform-runtime": "^6.4.3",
+    "babel-polyfill": "^6.5.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "html-webpack-plugin": "^2.7.2",
+    "json-loader": "^0.5.4",
+    "node-sass": "^3.4.2",
+    "react-addons-test-utils": "^0.14.7",
+    "react-hot-loader": "^1.3.0",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.3.19",
+    "font-awesome": "^4.5.0",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "skeleton-css": "^2.0.4"
+  }
+}

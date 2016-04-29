@@ -1,0 +1,54 @@
+@import "~font-awesome/css/font-awesome.css";
+@import "./variables.scss";
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300);
+
+html, body{
+ font-family: Roboto, sans-serif;
+}
+
+body {
+  background-color: $bg-color;
+
+}
+
+.content{
+  padding: 20px;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  margin: 0 auto;
+  width: 80%;
+  height: 200px;
+  padding: 3em 2em;
+  line-height: 2.5em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  color: $brown;
+}
+
+.social-profiles {
+  margin: 0 auto;
+  width: 50%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    float: left;
+  }
+
+  a:nth-child(1),
+  a:nth-child(2) {
+    margin-right: 15%;
+  }
+
+  i {
+    font-size: 100px;
+    color: $pink;
+  }
+}
